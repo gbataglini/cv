@@ -1,0 +1,42 @@
+{{ if .Projects }}
+<div id="projects" class="section">
+    <div class="section__heading">
+        <h2 class="section__title"> Projects </h2>
+    </div>
+    <div class="section__content">
+        <div class="projects">
+            {{ range .Projects }}
+            {{ if .Class }}
+            <div class="projects__item {{ .Class }}">
+            {{ else }}
+            <div class="projects__item">
+            {{ end }}
+
+                {{ range .Positions }}
+                <div class="projects__job">
+                    <div class="projects__subheader">
+                        <h3 class="projects__position">
+                            {{ .Title | safeHTML}}
+                        </h3>
+                        <h3 class="projects__date">{{ .Date | safeHTML }}</h3>
+                    </div>
+                    <ul>
+                        {{ range .Details }}
+                        <li class="projects__bullet">{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="projects__badges">
+                        <ul>
+                            {{ range .Badges }}
+                            <li class="projects__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

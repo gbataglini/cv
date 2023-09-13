@@ -1,0 +1,14 @@
+{{ if .Talks }}
+<div id = "talks" class="talks">
+    <div class="talks__heading">
+        <h2 class="talks_title"> Talks </h2>
+    </div>
+    <div class="talks__title">
+        <ul>
+            {{ range .Talks }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
