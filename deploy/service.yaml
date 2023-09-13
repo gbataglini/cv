@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gio-cv
+spec:
+  selector:
+    app: gio-cv
+  ports:
+  - name: gio-cv-port
+    protocol: TCP
+    port: 80
+    targetPort: gio-cv-entry
