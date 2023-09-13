@@ -57,7 +57,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        fetch-depth: 1
+        fetch-depth: 0
+        persist-credentials: true
+
 
     - name: Build Meta
       id: meta
@@ -70,7 +72,7 @@ jobs:
 
     - name: Push release
       run: |
-        git config --global user.name "Giovanna Bataglini"
-        git config --global user.email "gbataglini@users.noreply.github.com"
+        git config --global user.name "CI"
+        git config --global user.email "ci@pacgi.dev"
         git commit -am "update deployment"
         git push
