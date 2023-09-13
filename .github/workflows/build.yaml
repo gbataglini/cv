@@ -48,11 +48,11 @@ jobs:
     - name: Install yq
       run: |
         echo curl -L https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY}.tar.gz
-        curl -L https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY}.tar.gz | tar xz && mv ${BINARY} /usr/bin/yq
+        curl -L https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY}.tar.gz | tar xz && sudo mv ${BINARY} /usr/bin/yq
         yq --version
       env:
         VERSION: v4.35.1
-        BINARY: yq_linux_arm64
+        BINARY: yq_linux_amd64
 
     - name: Checkout
       uses: actions/checkout@v3
