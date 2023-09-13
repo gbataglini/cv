@@ -41,3 +41,36 @@ jobs:
           pacgi/cv:${{ steps.meta.outputs.SHORT_SHA }}
           pacgi/cv:latest
 
+  deploy:
+    needs: build-artifact
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install yq
+      run: |
+        echo curl -L https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY}.tar.gz
+        curl -L https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY}.tar.gz | tar xz && mv ${BINARY} /usr/bin/yq
+        yq --version
+      env:
+        VERSION: v4.35.1
+        BINARY: yq_linux_arm64
+
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 1
+
+    - name: Build Meta
+      id: meta
+      run: |
+        echo SHORT_SHA=$(git rev-parse --short HEAD) >> $GITHUB_OUTPUT
+
+    - name: Update deployment tag
+      run: |
+        yq ".spec.template.spec.containers[0].image = \"pacgi/cv:${{ steps.meta.outputs.SHORT_SHA}}\"" -i deploy/deployment.yaml
+
+    - name: Push release
+      run: |
+        git config --global user.name "CI"
+        git config --global user.email "ci@pacgi.dev"
+        git commit -am "update deployment"
+        git push
