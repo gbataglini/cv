@@ -1,9 +1,9 @@
 {{ if .Talks }}
 <div id = "talks" class="talks">
-    <div class="talks__heading">
-        <h2 class="talks_title"> Talks </h2>
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title"> Talks </h2>
     </div>
-    <div class="talks__title">
+    <div class="sideSection__content">
         <ul>
             {{ range .Talks }}
             <li>{{ . | safeHTML }}</li>

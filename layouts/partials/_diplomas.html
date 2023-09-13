@@ -5,8 +5,12 @@
     </div>
     <div class="sideSection__content">
         <ul>
-            {{ range .Diplomas }}
-            <li>{{ . | safeHTML }}</li>
+            {{ range $i, $d := .Diplomas }}
+                {{ if mod $i 1 }}
+                <li class="sideSection__courseName">{{ $d | safeHTML }}</li>
+                {{ else }}
+                <li>{{ $d | safeHTML }} </li>
+                {{ end }}
             {{ end }}
         </ul>
     </div>
