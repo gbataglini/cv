@@ -70,7 +70,7 @@ jobs:
 
     - name: Push release
       run: |
-        git config --global user.name "CI"
-        git config --global user.email "ci@pacgi.dev"
+        git config --global user.name "Giovanna Bataglini"
+        git config --global user.email "gbataglini@users.noreply.github.com"
         git commit -am "update deployment"
         git push
