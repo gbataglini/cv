@@ -24,7 +24,8 @@ Projects:
           - React Front End  
           - Python/SQL Backend 
           - Tailwind 
-          -  Future plans to integrate with the Google Places API, as well as using Docker for packaging
+          - GitHub Projects Board for kanban style project management 
+          - Future plans to integrate with the Google Places API, as well as using Docker for packaging
         Badges: ['Python' , 'SQL', 'React', 'Tailwind', 'Git', 'Agile']
 
   - Employer:
@@ -36,6 +37,7 @@ Projects:
           - React Front End  
           - Node JS/SQL Backend 
           - Utilised Material UI Components 
+          - JIRA used for project management
         Badges: ['Node JS' , 'React', 'SQL', 'MUI', 'Git', 'Agile']
 
 Experience:
@@ -49,6 +51,7 @@ Experience:
           - Work with data from SQL and Azure Databases, as well as third-party APIs
           - Visualise data using Pandas, PowerQuery and DAX in Power BI
           - Client-side scripting for Dynamics 365 using JavaScript
+          - Daily stand-ups and other agile cerimonies such as sprint planning, retrospectives and sprint reviews 
         Badges: ['Azure' , 'Pandas', 'JavaScript', 'PowerQuery', 'DAX', 'Agile']
 
   - Employer: Teamwork.com
