@@ -20,13 +20,14 @@ Projects:
     Positions: 
       - Title: Travel Roulette
         Details:
-          - 'WIP - A holiday destination picker built for myself using the following technologies:'
+          - A holiday destination picker built for myself using the following technologies:'
           - React Front End  
           - Python/SQL Backend 
+          - Currently working on writing the backend in Go 
           - Tailwind 
-          - GitHub Projects Board for kanban style project management 
-          - Future plans to integrate with the Google Places API, as well as using Docker for packaging
-        Badges: ['Python' , 'SQL', 'React', 'Tailwind', 'Git', 'Agile']
+          - GitHub Projects Board for kanban style project management
+          - Currently under development - future plans to integrate with the Google Places API, as well as using Docker for packaging
+        Badges: ['Python' , 'Golang', 'SQL', 'React', 'Tailwind', 'Git', 'Agile']
 
   - Employer:
     Place: 
@@ -47,12 +48,11 @@ Experience:
       - Title: Junior Software Developer
         Date: Present
         Details:
-          - Developing and maintaining Power Platform applications, using Power Apps, Power Automate and Power BI
-          - Work with data from SQL and Azure Databases, as well as third-party APIs
-          - Visualise data using Pandas, PowerQuery and DAX in Power BI
-          - Client-side scripting for Dynamics 365 using JavaScript
+          - Building extensions and webparts for Sharepoint using the SPFx framework (Node JS, TypeScript, React)
+          - Developing and maintaining Power Platform applications, using Power Apps and Power Automate
+          - Working with data from SQL and Azure Databases, as well as third-party APIs
           - Daily stand-ups and other agile cerimonies such as sprint planning, retrospectives and sprint reviews 
-        Badges: ['Azure' , 'Pandas', 'JavaScript', 'PowerQuery', 'DAX', 'Agile']
+        Badges: ['Node JS' , 'React', 'TypeScript', 'GIT', Agile']
 
   - Employer: Teamwork.com
     Place: Belfast
@@ -109,6 +109,7 @@ Skills:
   - Family: Programming
     Items:
       - Python
+      - Golang
       - HTML
       - CSS
       - JavaScript
