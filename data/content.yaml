@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: Giovanna
   LastName: Bataglini
-  Photo: img/avatar.jpeg
+  Photo: img/avatar.png
   Contacts:
     - Icon: fas fa-phone
       Info: +44 7557 444 267
@@ -14,32 +14,32 @@ BasicInfo:
 
 Profile: I'm a curious and creative person, always looking for new challenges - I’ve always loved travelling, and decided to move from Brazil to Belfast as soon as I turned 18! I started teaching myself how to program, and I quickly fell in love with it.
 
-Projects: 
+Projects:
   - Employer:
-    Place: 
-    Positions: 
+    Place:
+    Positions:
       - Title: Travel Roulette
         Details:
           - A holiday destination picker built for myself using the following technologies:'
-          - React Front End  
-          - Python/SQL Backend 
-          - Currently working on writing the backend in Go 
-          - Tailwind 
+          - React Front End
+          - Python/SQL Backend
+          - Currently working on writing the backend in Go
+          - Tailwind
           - GitHub Projects Board for kanban style project management
           - Currently under development - future plans to integrate with the Google Places API, as well as using Docker for packaging
-        Badges: ['Python' , 'Golang', 'SQL', 'React', 'Tailwind', 'Git', 'Agile']
+        Badges: ["Python", "SQL", "React", "Tailwind", "Git", "Agile"]
 
   - Employer:
-    Place: 
-    Positions: 
+    Place:
+    Positions:
       - Title: PIP Pictures
         Details:
-          - 'A personal website that helps users manage their own movie library by searching for films using the Open Movie DB API, save the films on a to-watch list and mark them as in progress or watched. Users can save their progress and leave their own review for each film. Built using: ' 
-          - React Front End  
-          - Node JS/SQL Backend 
-          - Utilised Material UI Components 
+          - "A personal website that helps users manage their own movie library by searching for films using the Open Movie DB API, save the films on a to-watch list and mark them as in progress or watched. Users can save their progress and leave their own review for each film. Built using: "
+          - React Front End
+          - Node JS/SQL Backend
+          - Utilised Material UI Components
           - JIRA used for project management
-        Badges: ['Node JS' , 'React', 'SQL', 'MUI', 'Git', 'Agile']
+        Badges: ["NodeJS", "React", "SQL", "MUI", "Git", "Agile"]
 
 Experience:
   - Employer: Endeavour IS
@@ -48,11 +48,12 @@ Experience:
       - Title: Junior Software Developer
         Date: Present
         Details:
-          - Building extensions and webparts for Sharepoint using the SPFx framework (Node JS, TypeScript, React)
-          - Developing and maintaining Power Platform applications, using Power Apps and Power Automate
+          - Building extensions and components for Sharepoint using the SPFx framework
           - Working with data from SQL and Azure Databases, as well as third-party APIs
-          - Daily stand-ups and other agile cerimonies such as sprint planning, retrospectives and sprint reviews 
-        Badges: ['Node JS' , 'React', 'TypeScript', 'GIT', Agile']
+          - Daily stand-ups and other agile cerimonies such as retros, sprint planning and reviews
+          - Version control and PR reviews using Github
+          - Direct communication with clients to understand requirements, reproduce bugs, deliver project updates
+        Badges: ["NodeJS", "React", "TypeScript", "Git", "Agile", "Debugging"]
 
   - Employer: Teamwork.com
     Place: Belfast
@@ -61,33 +62,34 @@ Experience:
         Date: 1 Year
         Details:
           - Act as first point of contact with customers when they're having issues with the software
-          - Troubleshooting 
-          - Debugging 
+          - Troubleshooting
+          - Debugging
           - Create tickets/bug reports
-        Badges: ['Debugging', 'Troubleshooting', 'Customer Service', 'Decision Making']
+        Badges:
+          [
+            "Debugging",
+            "Troubleshooting",
+            "Customer Service",
+            "Decision Making",
+          ]
 
-
-  - Employer: Monzo
-    Place: Belfast
-    Positions:
-      - Title: Customer Care Agent
-        Date: 1 Year
-        Details:
-          - Help customers with banking issues via live chat and telephone 
-          - Work with different departments 
-          - Thrive under pressure 
-        Badges: ['Customer Service', 'Teamwork',  'Time Management']
-        
   - Employer: Apple
     Place: Belfast
     Positions:
-      - Title: Technical Expert 
+      - Title: Technical Expert
         Date: 3.5 Years
         Details:
-          - iPhone hardware and Software repairs 
-          - Technical Support (in person) 
-          - Thrive under pressure 
-        Badges: ['iOS', 'Hardware Repairs', 'Customer Service', 'Teamwork',  'Time Management']
+          - iPhone hardware and Software repairs
+          - Technical Support (in person)
+          - Thrive under pressure
+        Badges:
+          [
+            "iOS",
+            "Hardware Repairs",
+            "Customer Service",
+            "Teamwork",
+            "Time Management",
+          ]
 
 Education:
   - Course: Full-Stack Developer Nanodegree
@@ -100,31 +102,26 @@ Education:
     Date: September 2020 - July 2022
     Details: Achieved Merit
 
-  - Course: Access to Higher Education - Psychology and Sociology
-    Place: Belfast Metropolitan College
-    Date: September 2018 - July 2020
-    Details: Achieved High Commendation
-
 Skills:
   - Family: Programming
     Items:
+      - Kotlin
       - Python
-      - Golang
+      - JavaScript
+      - SQL
       - HTML
       - CSS
-      - JavaScript
-      - Node JS
-      - SQL
+
   - Family: Frameworks
     Items:
+      - Android Jetpack
       - React
       - Vue
       - Flask
-      - Pandas
   - Family: Developer Tools
     Items:
       - Git
-      - IDEA Suite 
+      - IDEA Suite
       - VS Code
   - Family: Design
     Items:
@@ -134,8 +131,8 @@ Skills:
     Items:
       - Adaptability
       - Teamwork and Communication
-      - Self Starter 
-      - Problem Solver 
+      - Self Starter
+      - Problem Solver
       - Public Speaking
 
 Languages:
@@ -144,26 +141,25 @@ Languages:
   - Name: English
     Level: Fluent
 
-
 Diplomas:
-  - Learn Golang
-  - Codecademy | September 23
-  - Learn Data Analysis with Pandas 
-  - Codecademy | September 2023 
+  - Big Nerd Ranch Guide to Android Programming
+  - Codecademy | September 2023
+  - Learn Data Analysis with Pandas
+  - Codecademy | September 2023
   - Azure Data Fundamentals
   - Microsoft | August 2023
-  - Intro to Web Dev MOOC 
+  - Intro to Web Dev MOOC
   - Code First Girls | February 2023
   - Learn Javascript
   - Codecademy | January 2023
 
-Interests:
-  - Travelling
-  - Baking
-  - Music
-  - Languages
-  - Programming
-  - Design
+# Interests:
+#   - Travelling
+#   - Baking
+#   - Music
+#   - Languages
+#   - Programming
+#   - Design
 
-Talks: 
+Talks:
   - Women in Tech - Be Seen. Be Heard <br/> From raising bugs to fixing them <br>  My (ongoing)  journey from support to development <br> <a class="contact__link" href="https://youtu.be/Sh6e6AK3eoA?t=2481" target="_blank">Watch Here</a>
