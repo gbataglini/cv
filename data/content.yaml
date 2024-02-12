@@ -37,10 +37,10 @@ Projects:
           - "A personal website that helps users manage their own movie library by searching for films using the Open Movie DB API, save the films on a to-watch list and mark them as in progress or watched. Users can save their progress and leave their own review for each film. Built using: "
           - React Front End
           - Node JS/SQL Backend
-          - Express JS for REST APIs
+          - Express for REST APIs
           - Utilised Material UI Components
           - JIRA used for project management
-        Badges: ["NodeJS", "Express JS", "React", "SQL", "MUI", "Git", "Agile"]
+        Badges: ["NodeJS", "Express", "React", "SQL", "MUI", "Git", "Agile"]
 
 Experience:
   - Employer: Endeavour IS
