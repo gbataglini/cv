@@ -46,7 +46,7 @@ Experience:
   - Employer: Endeavour IS
     Place: Belfast
     Positions:
-      - Title: Junior Software Developer
+      - Title: Software Developer
         Date: Present
         Details:
           - Building extensions and components for Sharepoint using the SPFx framework
@@ -54,7 +54,7 @@ Experience:
           - Daily stand-ups and other agile cerimonies such as retros, sprint planning and reviews
           - Version control and PR reviews using Github
           - Direct communication with clients to understand requirements, reproduce bugs, deliver project updates
-        Badges: ["NodeJS", "React", "TypeScript", "Git", "Agile", "Debugging"]
+        Badges: ["Typescript", "React", "NodeJS", "Git", "Agile", "Debugging"]
 
   - Employer: Teamwork.com
     Place: Belfast
