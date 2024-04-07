@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: gio-cv
-          image: pacgi/cv:bf9116c
+          image: pacgi/cv:ed37091
           imagePullPolicy: Always
           readinessProbe:
             initialDelaySeconds: 3
