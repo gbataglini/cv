@@ -51,7 +51,7 @@ Experience:
       - Title: Software Developer
         Date: July 2023 - Present
         Details:
-          - Building extensions and components for a large React codebase using Typescript
+          - Building extensions and reusable components for a large codebase using React and Typescript
           - Working with data from SQL and Azure Databases, as well as third-party APIs
           - Daily stand-ups and other agile cerimonies such as retros, sprint planning and reviews
           - Version control and PR reviews
