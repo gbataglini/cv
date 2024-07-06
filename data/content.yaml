@@ -15,7 +15,7 @@ BasicInfo:
 Profile: |
   I am a driven and motivated software developer capable of both self-starting and self-teaching. After over 5 years as a software support agent that has always been passionate about tech, I became more interested in software development. 
   I started teaching myself software development around 2 years ago, complementing my knowledge by joining a coding bootcamp and attending coding meet-ups. <br/>
-  I currently specialise in a modern tech stack centred on React and TypeScript, with some familiarity with AWS. I find strength in my adaptability, problem-solving skills, and a strong affinity for writing clean, maintainable code.<br/>
+  I currently specialise in a modern tech stack centred on React and TypeScript. I find strength in my adaptability, problem-solving skills, and a strong affinity for writing clean, maintainable code.<br/>
   Looking ahead, my career aspirations align with taking on new challenges and progressing into roles that allow me to further expand my skills as a software engineer.
 Projects:
   - Employer:
@@ -23,14 +23,13 @@ Projects:
     Positions:
       - Title: Travel Roulette
         Details:
-          - A holiday destination picker built for myself using the following technologies:'
+          - "A holiday destination picker built for myself using the following technologies: "
           - React Front End
           - Python/SQL Backend
-          - Deployed to AWS ECS Fargate
           - Tailwind
           - GitHub Projects Board for kanban style project management
           - Currently under development - future plans to integrate with the Google Places API, as well as using Docker for packaging
-        Badges: ["Python", "SQL", "AWS", "React", "Tailwind", "Git", "Agile"]
+        Badges: ["Python", "SQL", "React", "Tailwind", "Git", "Agile"]
 
   - Employer:
     Place:
@@ -55,12 +54,11 @@ Experience:
           - Building extensions and components for a large React codebase using Typescript
           - Working with data from SQL and Azure Databases, as well as third-party APIs
           - Daily stand-ups and other agile cerimonies such as retros, sprint planning and reviews
-          - Version control and PR reviews using Github
+          - Version control and PR reviews
           - Direct communication with end-users to understand requirements, reproduce bugs, and deliver project updates
           - Interacting with clients to gather actionable project requirements for development
           - Development of a large scope of solutions, focusing on presenting and allowing clients of both public and private sectors to manage sensitive data
-        Badges:
-          ["Typescript", "React", "NodeJS", "Git", "Agile", "i18n", "Debugging"]
+        Badges: ["Typescript", "React", "Git", "Agile", "Debugging"]
 
   - Employer: Teamwork.com
     Place: Belfast
@@ -126,7 +124,6 @@ Skills:
   - Family: Developer Tools
     Items:
       - Git
-      - AWS
   - Family: Design
     Items:
       - Adobe Suite
