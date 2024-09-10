@@ -7,7 +7,20 @@ spec:
   selector:
     app: gio-cv
   ports:
-  - name: gio-cv-port
-    protocol: TCP
-    port: 80
-    targetPort: gio-cv-entry
+    - name: gio-cv-port
+      protocol: TCP
+      port: 80
+      targetPort: gio-cv-entry
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gio-newcv
+spec:
+  selector:
+    app: gio-newcv
+  ports:
+    - name: gio-ncv-port
+      protocol: TCP
+      port: 80
+      targetPort: gio-ncv-entry

@@ -14,22 +14,21 @@ BasicInfo:
 
 Profile: |
   I am a driven and motivated software developer capable of both self-starting and self-teaching. After over 5 years as a software support agent that has always been passionate about tech, I became more interested in software development. 
-  I started teaching myself software development around 2 years ago, complementing my knowledge by joining a coding bootcamp and attending coding meet-ups. <br/>
+  I started by teaching myself software development, complementing my knowledge by joining a coding bootcamp and attending coding meet-ups. <br/>
   I currently specialise in a modern tech stack centred on React and TypeScript, with some familiarity with AWS. I find strength in my adaptability, problem-solving skills, and a strong affinity for writing clean, maintainable code.<br/>
   Looking ahead, my career aspirations align with taking on new challenges and progressing into roles that allow me to further expand my skills as a software engineer.
 Projects:
   - Employer:
     Place:
     Positions:
-      - Title: Travel Roulette
+      - Title: Journi
         Details:
           - "A holiday destination picker built for myself using the following technologies: "
-          - React Front End
-          - Python/SQL Backend
-          - Tailwind
+          - React/Typescript Front End
+          - Golang backend
           - GitHub Projects Board for kanban style project management
           - Currently under development - future plans to integrate with the Google Places API, as well as using Docker for packaging
-        Badges: ["AWS", "Python", "SQL", "React", "Tailwind", "Git", "Agile"]
+        Badges: ["AWS", "Golang", "Postgresql", "React", "Tailwind", "Git"]
 
   - Employer:
     Place:
@@ -63,19 +62,26 @@ Experience:
   - Employer: Teamwork.com
     Place: Belfast
     Positions:
-      - Title: Customer Care Agent
+      - Title: Software Developer / Technical Support
         Date: 1 Year
         Details:
-          - Act as first point of contact with customers when they're having issues with the software
-          - Troubleshooting
+          - Work with team to plan and implement new features into our product across the whole stack
+          - Development with docker
+          - Integration and unit testing using Cucumber
+          - Train/mentor a year of interns
+          - Interface with customers to resolve customer specific issues with our software
           - Debugging
           - Create tickets/bug reports
+          - Agile ceremonies
         Badges:
           [
+            "Golang",
+            "React",
+            "Redis",
+            "Docker",
+            "Cucumber",
             "Debugging",
-            "Troubleshooting",
             "Customer Service",
-            "Decision Making",
           ]
 
   - Employer: Apple
@@ -110,6 +116,7 @@ Education:
 Skills:
   - Family: Programming
     Items:
+      - Golang
       - Python
       - JavaScript
       - SQL
@@ -123,8 +130,9 @@ Skills:
       - Flask
   - Family: Developer Tools
     Items:
-      - Git
       - AWS
+      - Docker
+      - Git
   - Family: Design
     Items:
       - Adobe Suite

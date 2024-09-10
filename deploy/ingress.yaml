@@ -7,18 +7,26 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
   tls:
-  - hosts:
-    - cv.pacgi.dev
-    secretName: pacgi-dev
+    - hosts:
+        - cv.pacgi.dev
+      secretName: pacgi-dev
 
   rules:
-  - host: cv.pacgi.dev
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: gio-cv
-            port:
-              number: 80
+    - host: cv.pacgi.dev
+      http:
+        paths:
+          - path: /giolovestiggy
+            pathType: Prefix
+            backend:
+              service:
+                name: gio-newcv
+                port:
+                  number: 80
+
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: gio-cv
+                port:
+                  number: 80
