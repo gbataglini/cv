@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: gio-cv
-          image: pacgi/cv:6fc192e
+          image: pacgi/newcv:418dd81
           imagePullPolicy: Always
           readinessProbe:
             initialDelaySeconds: 3
@@ -36,7 +36,6 @@ spec:
           ports:
             - containerPort: 80
               name: gio-cv-entry
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -58,7 +57,7 @@ spec:
     spec:
       containers:
         - name: gio-newcv
-          image: pacgi/newcv:78830b5
+          image: pacgi/newcv:418dd81
           imagePullPolicy: Always
           readinessProbe:
             initialDelaySeconds: 3
