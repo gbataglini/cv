@@ -120,13 +120,12 @@ Skills:
       - Python
       - JavaScript
       - SQL
-      - HTML
-      - CSS
+      - HTML/CSS
+      - Linux
 
   - Family: Frameworks
     Items:
-      - React
-      - Vue
+      - React & React Native
       - Flask
   - Family: Developer Tools
     Items:
