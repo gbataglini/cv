@@ -27,7 +27,7 @@ Projects:
           - React/Typescript Front End
           - Golang backend
           - GitHub Projects Board for kanban style project management
-          - Currently under development - future plans to integrate with the Google Places API, as well as using Docker for packaging
+          - Currently under development - future plans to integrate with the Google Places API, as well as using docker for packaging
         Badges: ["AWS", "Golang", "Postgresql", "React", "Tailwind", "Git"]
 
   - Employer:
@@ -50,13 +50,14 @@ Experience:
       - Title: Software Developer
         Date: July 2023 - July 2024
         Details:
-          - Building extensions and reusable components for a large codebase using React and Typescript
-          - Working with data from SQL and Azure Databases, as well as third-party APIs
-          - Daily stand-ups and other agile cerimonies such as retros, sprint planning and reviews
-          - Version control and PR reviews
+          - Built extensions and reusable components for a large codebase using React and Typescript
+          - Integrated services with SQL and Azure Databases
+          - Integrated with the Google Places API for real time location services
           - Direct communication with end-users to understand requirements, reproduce bugs, and deliver project updates
           - Interacting with clients to gather actionable project requirements for development
-          - Development of a large scope of solutions, focusing on presenting and allowing clients of both public and private sectors to manage sensitive data
+          - Developed of a large scope of solutions, focusing on presenting and allowing clients of both public and private sectors to manage sensitive data
+          - Trained and mentored waves of interns and graduates
+
         Badges: ["Typescript", "React", "Git", "Agile", "Debugging"]
 
   - Employer: Teamwork.com
@@ -65,14 +66,12 @@ Experience:
       - Title: Software Developer / Technical Support
         Date: 1 Year
         Details:
-          - Work with Product and my team to plan and implement new features across the whole stack
-          - Development with Docker
-          - Integration and unit testing using Cucumber
-          - Training and mentoring interns
-          - Interface with customers to resolve customer specific issues
-          - Debugging
-          - Create tickets/bug reports
-          - Agile ceremonies
+          - Worked with Product and my team to plan and implement new features across the whole stack
+          - Took initiative to self-train from Support to Development, both in my spare time and by volunteering to fix bugs
+          - Development with docker
+          - Integration and unit testing using cucumber
+          - Interfaced with customers to resolve customer specific issues
+          - Created tickets/bug reports
         Badges:
           [
             "Golang",
@@ -90,8 +89,8 @@ Experience:
       - Title: Technical Expert
         Date: 3.5 Years
         Details:
-          - iPhone hardware and Software repairs
-          - Technical Support (in person)
+          - iPhone hardware and software repairs
+          - Technical support (in person)
           - Thrive under pressure
         Badges:
           [
