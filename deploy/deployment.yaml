@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: gio-cv
-          image: pacgi/newcv:f3696f9
+          image: pacgi/newcv:b93b568
           imagePullPolicy: Always
           readinessProbe:
             initialDelaySeconds: 3
@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
         - name: gio-newcv
-          image: pacgi/newcv:f3696f9
+          image: pacgi/newcv:b93b568
           imagePullPolicy: Always
           readinessProbe:
             initialDelaySeconds: 3
